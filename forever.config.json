@@ -3,5 +3,5 @@
     "append": true,
     "watch": true,
     "script": "server.js",
-    "sourceDir": "/home/ubuntu/my-folder/app/seller-service/src"
+    "sourceDir": "/home/ubuntu/app/seller-service/src"
 }
