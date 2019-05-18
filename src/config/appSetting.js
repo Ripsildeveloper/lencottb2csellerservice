@@ -1,5 +1,5 @@
 module.exports = {
- /*  productUploadPath: './images/products',
+  /* productUploadPath: './images/products',
   productServerPath: 'http://localhost/Lencott/products/',
   bannerUploadPath: './images/banners',
   bannerServerPath: 'http://localhost/Lencott/banners/',
@@ -16,7 +16,7 @@ module.exports = {
   bannerServerPath: 'http://lencott.com/admin/images/banner/',
   bannerUploadPath: '/home/ubuntu/app/seller-ui/seller-app/images/banner',
   adsServerPath: 'http://lencott.com/admin/images/ads/',
-  adsUploadPath: '/home/ubuntu/app/seller-ui/seller-app/seller-app/images/ads',
+  adsUploadPath: '/home/ubuntu/app/seller-ui/seller-app/images/ads',
   logoServerPath: 'http://lencott.com/admin/images/logo/',
   logoUploadPath: '/home/ubuntu/app/sseller-ui/seller-app/images/logo',
   headerUploadPath: 'http://lencott.com/admin/images/header/',
