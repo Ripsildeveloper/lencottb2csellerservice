@@ -13,7 +13,6 @@ exports.createProduct = function (req, res, productID) {
     productData.mainCategoryId = req.body.mainCategoryId;
     productData.subCategoryId = req.body.subCategoryId;
     productData.productId = productID;
-    productData.moq = req.body.moq;
     productData.spPrice = req.body.spPrice;
     productData.price = req.body.spPrice;
     productData.mrpPrice = req.body.mrpPrice;
