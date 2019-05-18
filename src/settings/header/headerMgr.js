@@ -11,16 +11,15 @@ exports.createLogoImage = function (req, res) {
         let storage = multer.diskStorage({
             destination: (req, file, cb) => {
                 cb(null, PATH);
-                headerDA.createLogoImage(req,file,res);
+                headerDA.createLogoImage(req, file, res);
             },
             filename: (req, file, cb) => {
                 cb(null, file.originalname);
             }
         });
-
         let upload = multer({
             storage: storage
-        }).single('file'); //only 20 images can be uploaded
+        }).array('uploads[]', 20);
         upload(req, res, function (err) {
             if (err) {
                 console.log(err);
