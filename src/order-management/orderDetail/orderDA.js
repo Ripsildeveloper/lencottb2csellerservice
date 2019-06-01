@@ -32,7 +32,7 @@ var Order = require('../../model/order.model');
         });
       }
     });
-  at}
+}
 
 
   exports.uniqueOrderView = function (req, res) {
